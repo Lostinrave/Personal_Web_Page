@@ -6,7 +6,11 @@
     max-width: 1140px;
   }
 }
-
+@media screen and (max-width: 1020px) {
+  .logo {
+    display: none;
+  }
+}
 @media screen and (max-width: 992px) {
   .container_header {
     max-width: 960px;
@@ -26,7 +30,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .container_intro {
     max-width: 720px;
   }
@@ -38,8 +41,7 @@
     max-width: 720px;
   }
 
-
-.container_header {
+  .container_header {
     max-width: 720px;
   }
   .container_intro {
