@@ -3,7 +3,7 @@
 }
 body {
   color: #777;
-  font-family: "Poppins", sans-serif;
+  font-family: "Audiowide", cursive;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -28,9 +28,10 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.logo img{
+.logo img {
   max-width: 60%;
-
+  padding-left: 8px;
+  padding-right: 8px;
 }
 ul a {
   text-decoration: none;
@@ -53,10 +54,10 @@ li {
   justify-content: space-between;
 }
 .nav_list a:hover {
-  color: #2D2B70;
+  color: #2d2b70;
 }
 .home_active {
-  color: #2D2B70;
+  color: #2d2b70;
 }
 .dropdown {
   position: relative;
@@ -65,10 +66,14 @@ li {
 .dropdown_content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  right: 0%;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px #2D2B70;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px #2d2b70;
   z-index: 1;
+}
+.dropdown_content li {
+  text-align: left;
 }
 .dropdown_content a {
   display: block;
@@ -94,7 +99,8 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.col_row_left h6, h5 {
+.col_row_left h6,
+h5 {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
@@ -104,14 +110,14 @@ li {
 .col_row_left h1 {
   text-transform: uppercase;
   font-weight: 900;
-  padding: 20px 0;
+  margin: 20px 0;
   font-size: 60px;
   color: #222;
 }
 .intro_btn {
   text-transform: uppercase;
   font-size: 14px;
-  background:  linear-gradient(50deg,#F3716A ,#2D2B70) ;
+  background: linear-gradient(50deg, #f3716a, #2d2b70);
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -122,17 +128,21 @@ li {
   text-decoration: none;
 }
 .col_row_left .intro_btn:hover {
-  box-shadow: 0 20px 20px 0 #2D2B70;
+  box-shadow: 0 20px 20px 0 #2d2b70;
+  transition: box-shadow 800ms;
 }
-.col_row_right, .col_row_left {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+.col_row_right,
+.col_row_left {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .col_row_right {
-    display: flex;
-    align-self: flex-end;
+  display: flex;
+  align-self: flex-end;
 }
-
+.image_intro {
+    max-width: 100%;
+}
