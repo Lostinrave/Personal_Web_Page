@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+    .container_header {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container_intro {
+        max-width: 1140px;
+    }
+}
+

@@ -7,6 +7,16 @@
     <title>Personal</title>
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/personal.css" />
+    <link rel="stylesheet" href="assets/css/personal_media.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -20,7 +30,7 @@
           <nav class="nav_container">
             <ul class="nav_list">
               <li>
-                <a href="#">home</a>
+                <a href="#" class="home_active">home</a>
               </li>
               <li>
                 <a href="#">about</a>
@@ -34,11 +44,16 @@
               <li>
                 <a href="#">pricing</a>
               </li>
-              <li>
-                <a href="#">blog</a>
+              <li class="dropdown">
+                <a href="#">blog <i class="las la-angle-down"></i></a>
+                <div class="dropdown_content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
               </li>
               <li>
-                <a href="#">pages</a>
+                <a href="#">pages <i class="las la-angle-down"></i></a>
               </li>
               <li>
                 <a href="#">contact</a>
@@ -48,5 +63,28 @@
         </div>
       </div>
     </header>
+    <section class="intro">
+      <div class="container_intro">
+        <div class="intro_row">
+          <div class="col_row_left">
+            <h6>This is me</h6>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+              libero ipsum blanditiis non, dolorem sapiente officia explicabo
+              nesciunt! Dolorem commodi.
+            </p>
+            <a href="#" class="intro_btn">discover now</a>
+          </div>
+          <div class="col_row_right">
+            <img
+              class="image_intro"
+              src="assets/images/philip.webp"
+              alt="portrait"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
