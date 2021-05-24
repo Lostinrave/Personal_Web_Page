@@ -40,14 +40,19 @@
   .container_header {
     max-width: 720px;
   }
-
+}
+@media screen and (max-width: 576px) {
   .container_header {
-    max-width: 720px;
+    max-width: 540px;
   }
   .container_intro {
     max-width: 540px;
   }
   .intro_row {
     max-width: 540px;
+  }
+  .dropdown_content {
+    right: initial;
+    left: 0%;
   }
 }

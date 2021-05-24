@@ -67,6 +67,7 @@ li {
   display: none;
   position: absolute;
   right: 0%;
+  top: 100%;
   min-width: 160px;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px #2d2b70;
