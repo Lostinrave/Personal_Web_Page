@@ -151,7 +151,7 @@ h5 {
 .image_about {
   max-width: 100%;
 }
-.section_about {
+.about {
   padding-top: 120px;
 }
 .about_row {
@@ -178,6 +178,7 @@ h5 {
 }
 .services {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .services_row {
   display: flex;
@@ -220,9 +221,33 @@ h5 {
   text-decoration: none;
   color: #222;
 }
-.services_card i:hover {
+.services_card:hover i {
+  color: #83D5F7;
+  
+}
+.services_card:hover a {
   color: #2d2b70;
 }
-.services_card a:hover {
-  color: #2d2b70;
+.facts {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: linear-gradient(50deg, #f3716a, #2d2b70);
+}
+.facts_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.facts_row_col {
+  max-width: 100%
+}
+.facts_row_col h1{
+  text-align: center;
+  color: #83D5F7;
+}
+.facts_row_col p {
+  text-align: center;
+  color: #83D5F7;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
