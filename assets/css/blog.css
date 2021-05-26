@@ -1,0 +1,6 @@
+.banner_area {
+    position: relative;
+    display: block;
+    background: url(../images/pub_background.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,25 @@
+.logo img {
+  max-width: 60%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+ul a {
+  text-decoration: none;
+  color: #222;
+}
+li {
+  display: inline-block;
+}
+.nav_list a {
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.nav_list a:hover {
+  color: #2d2b70;
+}
+.home_active {
+  color: #2d2b70;
+}
