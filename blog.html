@@ -7,13 +7,13 @@
     <title>Blog</title>
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/csc/personal_media" />
     <link rel="stylesheet" href="assets/css/navigation.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/body.css" />
     <link rel="stylesheet" href="assets/css/dropdown.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="assets/css/personal_media.css" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
       rel="stylesheet"
@@ -25,56 +25,138 @@
   </head>
   <body>
     <header class="header">
-        <div class="container_header">
-          <div class="header_row">
-            <div class="logo">
-              <a href="personal.html">
-                <img src="assets/images/logo_lostinrave.svg" alt="logo"
-              /></a>
+      <div class="container_header">
+        <div class="header_row">
+          <div class="logo">
+            <a href="personal.html">
+              <img src="assets/images/logo_lostinrave.svg" alt="logo"
+            /></a>
+          </div>
+          <nav class="nav_container">
+            <ul class="nav_list">
+              <li>
+                <a href="#" class="home_active">home</a>
+              </li>
+              <li>
+                <a href="#">about</a>
+              </li>
+              <li>
+                <a href="#">services</a>
+              </li>
+              <li>
+                <a href="#">portfolio</a>
+              </li>
+              <li>
+                <a href="#">pricing</a>
+              </li>
+              <li class="dropdown">
+                <a href="#">blog <i class="las la-angle-down"></i></a>
+                <ul class="dropdown_content">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#">pages <i class="las la-angle-down"></i></a>
+                <ul class="dropdown_content">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="banner_area">
+      <div class="overlay">
+        <div class="container">
+          <div class="banner_area_row">
+            <div class="banner_area_content">
+              <h1>Dude You're Getting a Telescope</h1>
+              <p>
+                There is a moment in the life of any aspiring astronomer that it
+                is time to buy that first
+              </p>
+              <a href="#" class="blog_btn">View more</a>
             </div>
-            <nav class="nav_container">
-              <ul class="nav_list">
-                <li>
-                  <a href="#" class="home_active">home</a>
-                </li>
-                <li>
-                  <a href="#">about</a>
-                </li>
-                <li>
-                  <a href="#">services</a>
-                </li>
-                <li>
-                  <a href="#">portfolio</a>
-                </li>
-                <li>
-                  <a href="#">pricing</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#">blog <i class="las la-angle-down"></i></a>
-                  <ul class="dropdown_content">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#">pages <i class="las la-angle-down"></i></a>
-                  <ul class="dropdown_content">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">contact</a>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
-      </header>
-      <section class="banner_area">
-          
-      </section>
+      </div>
+    </section>
+    <section class="top_category">
+      <div class="container">
+        <div class="top_category_row">
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog1.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                      <h4>Social life</h4>
+                      <span></span>
+                      <p>Enjoy your social life together</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog1.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                      <h4>Social life</h4>
+                      <span></span>
+                      <p>Enjoy your social life together</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog1.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                      <h4>Social life</h4>
+                      <span></span>
+                      <p>Enjoy your social life together</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -12,8 +12,6 @@ body {
   padding-bottom: 95px;
 }
 
-
-
 .intro_row {
   display: flex;
   flex-wrap: wrap;
@@ -36,10 +34,9 @@ body {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown_content{
+.dropdown:hover .dropdown_content {
   display: block;
 }
-
 
 .intro {
   background: #f9f9ff;
@@ -177,8 +174,7 @@ h5 {
   color: #222;
 }
 .services_card:hover i {
-  color: #83D5F7;
-  
+  color: #83d5f7;
 }
 .services_card:hover a {
   color: #2d2b70;
@@ -194,15 +190,15 @@ h5 {
   justify-content: space-evenly;
 }
 .facts_row_col {
-  max-width: 100%
+  max-width: 100%;
 }
-.facts_row_col h1{
+.facts_row_col h1 {
   text-align: center;
-  color: #83D5F7;
+  color: #83d5f7;
 }
 .facts_row_col p {
   text-align: center;
-  color: #83D5F7;
+  color: #83d5f7;
   margin-top: 0;
   margin-bottom: 1rem;
 }
