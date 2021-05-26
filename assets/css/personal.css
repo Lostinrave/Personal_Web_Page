@@ -76,16 +76,11 @@ li {
   box-shadow: 0px 8px 16px 0px #2d2b70;
   z-index: 1;
 }
-.dropdown_content li {
-  text-align: left;
-}
-.dropdown_content a {
-  display: block;
-}
 
 .dropdown:hover .dropdown_content {
   display: block;
 }
+
 .intro {
   background: #f9f9ff;
 }
