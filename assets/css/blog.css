@@ -288,3 +288,25 @@
 .user_info {
   text-align: center;
 }
+.widget_wrap .single_sidebar_widget h4,
+a {
+  font-size: 14px;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.widget_wrap .single_sidebar_widget p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul.social_links {
+  padding-left: 0%;
+}
+.social_links i {
+  color: #222;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
