@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/body.css" />
     <link rel="stylesheet" href="assets/css/dropdown.css" />
+    <link rel="stylesheet" href="assets/css/pages_nav.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="assets/css/personal_media.css" />
     <link
@@ -421,37 +423,31 @@
               <ul class="pages">
                 <li class="page_item">
                   <a href="#" class="page_link">
-                    <span><span></span></span>
+                    <span
+                      ><span><i class="las la-angle-left"></i></span
+                    ></span>
                   </a>
                 </li>
                 <li class="page_item">
-                  <a href="#" class="page_link">
-                    <span><span></span></span>
-                  </a>
+                  <a href="#" class="page_link">01 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 02 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 03 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 04 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 05 </a>
                 </li>
                 <li class="page_item">
                   <a href="#" class="page_link">
-                    <span><span></span></span>
-                  </a>
-                </li>
-                <li class="page_item">
-                  <a href="#" class="page_link">
-                    <span><span></span></span>
-                  </a>
-                </li>
-                <li class="page_item">
-                  <a href="#" class="page_link">
-                    <span><span></span></span>
-                  </a>
-                </li>
-                <li class="page_item">
-                  <a href="#" class="page_link">
-                    <span><span></span></span>
-                  </a>
-                </li>
-                <li class="page_item">
-                  <a href="#" class="page_link">
-                    <span><span></span></span>
+                    <span
+                      ><span><i class="las la-angle-right"></i></span
+                    ></span>
                   </a>
                 </li>
               </ul>
@@ -481,10 +477,18 @@
                 <a href="#"><h4>Charlie Barber</h4></a>
                 <p>Senior blog writer</p>
                 <ul class="social_links">
-                  <li><a href="#"></a><i class="lab la-facebook-square"></i></li>
-                  <li><a href="#"></a><i class="lab la-twitter"></i></li>
-                  <li><a href="#"></a><i class="lab la-twitch"></i></li>
-                  <li><a href="#"></a><i class="lab la-spotify"></i></li>
+                  <li>
+                    <a href="#"><i class="lab la-facebook-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-twitch"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-spotify"></i></a>
+                  </li>
                 </ul>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
@@ -494,7 +498,7 @@
                 </p>
               </div>
               <div class="single_sidebar_widget">
-                <h4>Popular posts</h4>
+                <h4 class="pop_title">Popular posts</h4>
                 <div class="popular_post_list">
                   <div class="single_popular_post_list">
                     <div class="thumb">
@@ -563,46 +567,46 @@
                 /></a>
               </div>
               <div class="single_sidebar_widget">
-                <h4>Post Categories</h4>
-                <ul>
+                <h4 class="cat_title">Post Categories</h4>
+                <ul class="cat_list">
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a class="cat_flex" href="#">
                       <p>Technology</p>
                       <p>37</p>
                     </a>
@@ -610,16 +614,36 @@
                 </ul>
               </div>
               <div class="single_sidebar_widget">
-                <h4>Newsletter</h4>
-                <p>
+                <h4 class="news_title">Newsletter</h4>
+                <p class="news_paragraph">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Culpa eveniet cum animi beatae corporis! Aut expedita,
                   asperiores, cupiditate ab consectetur rerum sint eius at
                   quisquam id, numquam nihil corporis non?
                 </p>
+                <div class="form_group">
+                  <div class="col_autos">
+                    <div class="input_group">
+                      <div class="input_group_prepend">
+                        <div class="input_group_text">
+                          <i class="las la-envelope"></i>
+                        </div>
+                      </div>
+                      <input
+                        type="text"
+                        class="form_control"
+                        placeholder="Enter email"
+                        onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Enter email'"
+                      />
+                    </div>
+                  </div>
+                  <a href="#" class="sub_btn">Subcribe</a>
+                </div>
+                <p class="text_bottom">You can unsubscribe at any time</p>
               </div>
-              <div class="single_sidebar_widget">
-                <h4>Tag Clouds</h4>
+              <div class="single_sidebar_widget tags_list">
+                <h4 class="tags_title">Tag Clouds</h4>
                 <ul>
                   <li>
                     <a href="#">Technology</a>
@@ -664,5 +688,59 @@
         </div>
       </div>
     </section>
+    <footer class="footer_area">
+      <div class="container">
+        <div class="footer_row">
+          <div class="col_footer_about">
+            <div class="single_footer_widget">
+              <h4>About me</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis non pariatur magni deleniti quas! Commodi tempora
+                eveniet temporibus explicabo ipsam! Consequuntur architecto
+                fugiat a id quae quibusdam voluptates, ab dolor.
+              </p>
+              <p class="copyright"></p>
+            </div>
+          </div>
+          <div class="col_footer_newsletter">
+            <div class="single_footer_widget">
+              <h4>Newsletter</h4>
+              <p>Stay updated with our latest trends</p>
+              <div class="footer_form">
+                <form target="blank" action="#">
+                  <div class="input_group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="EMAIL"
+                      placeholder="Enter Email Address"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter Email Address '"
+                      required=""
+                    />
+                    <button class="footer_btn" type="submit">
+                      <span><i class="las la-arrow-right"></i></span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col_footer_follow">
+            <div class="single_footer_widget">
+              <h4>Follow me</h4>
+              <p>Let us be social</p>
+              <div class="footer_social">
+                <a href="#"><i class="lab la-facebook-square"></i></a>
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-twitch"></i></a>
+                <a href="#"><i class="lab la-spotify"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

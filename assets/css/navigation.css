@@ -3,11 +3,11 @@
   padding-left: 8px;
   padding-right: 8px;
 }
-ul a {
+.nav_list a {
   text-decoration: none;
   color: #222;
 }
-li {
+.nav_list li {
   display: inline-block;
 }
 .nav_list a {
@@ -18,8 +18,8 @@ li {
   text-transform: uppercase;
 }
 .nav_list a:hover {
-  color: #2d2b70;
+  color: #83D5F7;
 }
-.home_active {
+.home_active  {
   color: #2d2b70;
 }

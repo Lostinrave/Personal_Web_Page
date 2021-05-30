@@ -6,6 +6,8 @@
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
+  -webkit-box-shadow: -2px 13px 20px -6px #83D5F7; 
+  box-shadow: -2px 13px 20px -6px #83D5F7;
 }
 .container_header {
   width: 100%;

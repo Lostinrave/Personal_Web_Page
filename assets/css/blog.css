@@ -164,6 +164,12 @@
   padding-left: 15px;
 }
 /* Post content section columns end*/
+
+.post_content ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
 .single_post {
   display: flex;
   flex-wrap: wrap;
@@ -206,6 +212,7 @@
   margin-bottom: 20px;
 }
 .user_name a {
+  font-size: 14px;
   text-decoration: none;
   color: #777;
 }
@@ -219,7 +226,17 @@
 }
 .tags {
   margin-bottom: 30px;
+}
+.tags li {
+  display: inline-block;
+
   font-size: 14px;
+  list-style: none;
+}
+.tags li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: normal;
 }
 .tags li:hover a {
   color: #2d2b70c4;
@@ -250,6 +267,7 @@
   padding-bottom: 30px;
   border-bottom: 1px solid #eee;
 }
+/* Form start */
 .search_form i {
   transform: scaleX(-1);
   font-weight: 900;
@@ -285,28 +303,209 @@
   font-size: 1.5em;
   -webkit-text-stroke: 2px white;
 }
+/* Form end */
 .user_info {
   text-align: center;
 }
-.widget_wrap .single_sidebar_widget h4,
-a {
-  font-size: 14px;
+.user_info a {
+  font-size: 18px;
   color: black;
   margin-top: 40px;
   margin-bottom: 5px;
   text-decoration: none;
 }
-.widget_wrap .single_sidebar_widget p {
+
+.list_post_details p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 ul.social_links {
   padding-left: 0%;
 }
+.social_links li {
+  list-style: none;
+  display: inline-block;
+}
 .social_links i {
   color: #222;
   padding: 10px;
   font-size: 18px;
-
 }
-
+.social_links li a:hover i {
+  color: #83d5f7;
+}
+.single_sidebar_widget .pop_title,
+.cat_title,
+.news_title,
+.tags_title {
+  background: #2d2b70;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 18px;
+}
+.cat_title {
+  margin: 0px;
+}
+.popular_post_list {
+  margin-top: 30px;
+}
+.single_popular_post_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.thumb img {
+  width: 100%;
+  height: auto;
+}
+.list_post_details {
+  margin-left: 10px;
+}
+.list_post_details h6 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.list_post_details p {
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 12px;
+}
+.list_post_details a {
+  font-size: 18px;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.cat_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cat_list {
+  padding-left: 0;
+}
+.cat_list li {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #eee;
+  list-style: none;
+}
+.cat_list a {
+  color: #777;
+  text-decoration: none;
+}
+.cat_list p {
+  margin: 0px;
+}
+.cat_list li:hover {
+  border-color: #2d2b70;
+}
+.cat_list li:hover > a {
+  color: #2d2b70;
+}
+.news_paragraph {
+  text-align: center;
+  margin: 20px 0;
+}
+/* Newsletter form*/
+.form_group {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.col_autos {
+  width: 100%;
+}
+.input_group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input_group_prepend {
+  display: flex;
+  margin-right: -1px;
+  border: 1px solid #ced4da;
+}
+.input_group_text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  background: #fff;
+  border-radius: 0;
+  vertical-align: top;
+}
+.form_control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0;
+  font-size: 13px;
+  color: #ccc;
+  padding: 9px;
+  padding-left: 0;
+}
+.form_control:focus{
+  outline: none;
+}
+.input_group > .form_control {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+.sub_btn {
+  background: #2d2b70;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 0;
+  text-decoration: none;
+}
+.text_bottom {
+  margin-bottom: 0;
+  text-align: center;
+}
+.tags_list ul li {
+  display: inline-block;
+  border: 1px solid #eee;
+  background: #fff;
+  padding: 4px 14px;
+  margin-bottom: 10px;
+}
+.tags_list li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 12px;
+}
+.tags_list li:hover {
+  background: #2d2b70;
+  border-color: #2d2b70;
+}
+.tags_list ul li:hover a {
+  color: #fff;
+}
+:hover {
+  transition: 800ms;
+}
