@@ -303,6 +303,7 @@
   font-size: 1.5em;
   -webkit-text-stroke: 2px white;
 }
+
 /* Form end */
 .user_info {
   text-align: center;
@@ -506,6 +507,7 @@ ul.social_links {
 .tags_list ul li:hover a {
   color: #fff;
 }
-:hover {
-  transition: 800ms;
-}
+
+/* .transition {
+  transition: all 800ms;
+} */

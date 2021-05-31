@@ -1,0 +1,57 @@
+$transition: all 800ms;
+@mixin position_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+@mixin default_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@mixin default_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  @include position_fixed;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #fff;
+  box-shadow: -2px 13px 20px -6px #83d5f7;
+  .container_header {
+    @include default_container;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    .header_row {
+      @include efault_row;
+      .logo img {
+        max-width: 60%;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      .nav_list li {
+        display: inline-block;
+      }
+      .nav_list a {
+        list-style: none;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #222;
+        &:hover {
+          color: #83d5f7;
+          transition: $transition;
+        }
+      }
+    }
+  }
+}
