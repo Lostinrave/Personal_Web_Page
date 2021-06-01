@@ -1,23 +1,6 @@
-$transition: all 800ms;
-@mixin position_fixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-}
-@mixin default_container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@mixin default_row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
+@import "mixins.scss";
+@import "variables.scss";
+
 .header {
   @include position_fixed;
   transition: all 0.5s;
@@ -30,7 +13,9 @@ $transition: all 800ms;
     padding-top: 20px;
 
     .header_row {
-      @include efault_row;
+      @include default_row;
+      align-items: center;
+      justify-content: space-between;
       .logo img {
         max-width: 60%;
         padding-left: 8px;

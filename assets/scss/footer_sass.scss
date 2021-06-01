@@ -1,0 +1,58 @@
+@import "mixins.scss";
+@import "variables.scss";
+.footer_area {
+  background: #2d2b70;
+  padding: 120px 0;
+  .container {
+    @include default_container;
+    .footer_row {
+      @include default_row;
+    }
+  }
+}
+.col_footer_about,
+.col_footer_newsletter {
+  @include default_col;
+  min-height: 1px;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+.single_footer_widget .form_control {
+  border: none;
+  width: 80%;
+  font-weight: 300;
+  background: #f9f9ff;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: normal;
+  color: #222;
+}
+.footer_btn {
+  background: #83d5f7;
+  @include btn_default;
+}
+
+.col_footer_follow {
+  @include default_col;
+  min-height: 1px;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+.footer_social {
+  display: flex;
+  align-items: center;
+  a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #f9f9ff;
+    font-size: 18px;
+    &:hover i {
+      color: #83d5f7;
+      transition: $transition;
+    }
+  }
+}

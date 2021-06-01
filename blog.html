@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="assets/css/blog.css" />
     <link rel="stylesheet" href="assets/scss/navigation_sass.css" />
     <link rel="stylesheet" href="assets/csc/personal_media" />
-    <link rel="stylesheet" href="assets/css/navigation.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/body.css" />
     <link rel="stylesheet" href="assets/css/dropdown.css" />
     <link rel="stylesheet" href="assets/css/pages_nav.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/scss/footer_sass.css" />
+    <!-- <link rel="stylesheet" href="assets/css/footer.css" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="assets/css/personal_media.css" />
     <link
@@ -713,16 +712,18 @@
                   <div class="input_group">
                     <input
                       type="text"
-                      class="form-control"
+                      class="form_control"
                       name="EMAIL"
                       placeholder="Enter Email Address"
                       onfocus="this.placeholder = ''"
                       onblur="this.placeholder = 'Enter Email Address '"
                       required=""
                     />
-                    <button class="footer_btn" type="submit">
-                      <span><i class="las la-arrow-right"></i></span>
-                    </button>
+                    <div class="input_footer_btn">
+                      <button class="footer_btn" type="submit">
+                        <span><i class="las la-arrow-right"></i></span>
+                      </button>
+                    </div>
                   </div>
                 </form>
               </div>
