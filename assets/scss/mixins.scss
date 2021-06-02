@@ -17,7 +17,6 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-
 }
 @mixin btn_default {
   display: inline-block;
@@ -37,5 +36,25 @@
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  
+}
+@mixin default_dropdown {
+  position: relative;
+  display: inline-block;
+}
+@mixin default_dropdown_content {
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  min-width: 160px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px #2d2b70;
+  z-index: 1;
+}
+@mixin default_form_input {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
 }

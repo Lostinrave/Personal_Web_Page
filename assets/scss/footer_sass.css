@@ -35,6 +35,12 @@
   max-width: 41.66667%;
 }
 
+.single_footer_widget h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
 .single_footer_widget .form_control {
   border: none;
   width: 80%;
@@ -45,6 +51,23 @@
   font-size: 14px;
   line-height: normal;
   color: #222;
+}
+
+.single_footer_widget .form_control:focus {
+  outline: none;
+}
+
+.input_group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
 }
 
 .footer_btn {
