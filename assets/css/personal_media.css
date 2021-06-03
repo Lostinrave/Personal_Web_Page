@@ -66,16 +66,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .container,
-  .container_header,
-  .services_row,
-  .services_col_row,
-  .facts_row,
-  .banner_area_row,
-  .top_category_row,
-  .post_content_row,
-  .footer_row {
+  .container_header {
     max-width: 720px;
   }
   .intro_row {
