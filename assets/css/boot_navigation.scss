@@ -1,0 +1,38 @@
+@import "../scss/mixins.scss";
+@import "../scss/variables.scss";
+
+#mobile-nav-toggle {
+  @include default_burger;
+}
+#header {
+  @include position_fixed;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #fff;
+  box-shadow: -2px 13px 20px -6px #83d5f7;
+  .main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+#logo img {
+  max-width: 60%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.nav-menu li {
+  display: inline-block;
+  a {
+    list-style: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    &:hover {
+      color: #83d5f7;
+      transition: $transition;
+    }
+  }
+}

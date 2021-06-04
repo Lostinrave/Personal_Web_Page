@@ -1,0 +1,69 @@
+#mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  z-index: 999;
+  top: 22px;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #fff;
+  -webkit-box-shadow: -2px 13px 20px -6px #83d5f7;
+          box-shadow: -2px 13px 20px -6px #83d5f7;
+}
+
+#header .main-menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#logo img {
+  max-width: 60%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-menu li a {
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-menu li a:hover {
+  color: #83d5f7;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+
+body {
+  color: #222;
+  font-family: "Audiowide", cursive;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+  padding-top: 95px;
+}
+/*# sourceMappingURL=boot_personal.css.map */
