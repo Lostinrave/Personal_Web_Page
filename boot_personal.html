@@ -10,7 +10,12 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <!--Regular css-->
     <link rel="stylesheet" href="assets/css/boot_personal.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -18,14 +23,8 @@
       href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/superfish.css" />
-    <link rel="stylesheet" href="assets/css/superfish-navbar.css" />
-    <link rel="stylesheet" href="assets/css/superfish-vertical.css" />
   </head>
   <body>
-    <button type="button" id="mobile-nav-toggle">
-      <i class="lnr lnr-menu"></i>
-    </button>
     <header id="header">
       <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
@@ -33,54 +32,91 @@
             <a href="boot_personal.html">
               <img src="assets/images/logo_lostinrave.svg" alt="lostinrave" />
             </a>
-          </div>
-          <nav id="nav-menu-container">
-            <ul
-              class="nav-menu sf-js-enabled sf-arrows"
-              style="touch-action: pan-y"
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <li>
-                <a href="#" class="menu-active">home</a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <nav class="navbar navbar-expand-lg" id="nav-menu-container">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">home</a>
               </li>
-              <li>
-                <a href="#">about</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
               </li>
-              <li>
-                <a href="#">services</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
               </li>
-              <li>
-                <a href="#">portfolio</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
               </li>
-              <li>
-                <a href="#">pricing</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">pricing</a>
               </li>
-              <li class="menu-has-children">
-                <a href="#" class="sf-with-ul">blog</a>
-                <ul style="display: none">
-                  <li><a href="#">Link 1</a></li>
-                  <li><a href="#">Link 2</a></li>
-                  <li><a href="#">Link 3</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >blog</a
+                >
+                <ul class="dropdown-menu dropdown_content" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children">
-                <a href="#" class="sf-with-ul">pages</a>
-                <ul style="display: none">
-                  <li><a href="#">Link 1</a></li>
-                  <li><a href="#">Link 2</a></li>
-                  <li class="menu-has-children">
-                    <a href="#" class="sf-with-ul">level 2</a>
-                    <ul style="display: none">
-                      <li><a href="#">Page 1</a></li>
-                      <li><a href="#">Page 2</a></li>
-                      <li><a href="#">Page 3</a></li>
-                      <li><a href="#">Page 4</a></li>
-                      <li><a href="#">Page 5</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >pages</a
+                >
+                <ul class="dropdown-menu dropdown_content" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li class="nav-item dropdown">
+                    <a
+                      href="#"
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >level 2</a
+                    >
+
+                    <ul class="dropdown_child" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="#">contact</a>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">contacts</a>
               </li>
             </ul>
           </nav>
@@ -99,6 +135,5 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/js/superfish.js"></script>
   </body>
 </html>
