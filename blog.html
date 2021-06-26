@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/scss/blog_sass.css" />
+    <link rel="stylesheet" href="assets/css/body.css" />
+    <link rel="stylesheet" href="assets/css/pages_nav.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="assets/css/personal_media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container_header">
+        <div class="header_row">
+          <div class="logo">
+            <a href="personal.html">
+              <img src="assets/images/logo_lostinrave.svg" alt="logo"
+            /></a>
+          </div>
+          <nav class="nav_container">
+            <ul class="nav_list">
+              <li>
+                <a href="#" class="home_active">home</a>
+              </li>
+              <li>
+                <a href="#">about</a>
+              </li>
+              <li>
+                <a href="#">services</a>
+              </li>
+              <li>
+                <a href="#">portfolio</a>
+              </li>
+              <li>
+                <a href="#">pricing</a>
+              </li>
+              <li class="dropdown">
+                <a href="#">blog <i class="las la-angle-down"></i></a>
+                <ul class="dropdown_content">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#">pages <i class="las la-angle-down"></i></a>
+                <ul class="dropdown_content">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li class="dropdown"><a href="#" class="dropdown_link">Link 3 <i class="las la-angle-down"></i></a>
+                  <ul class="dropdown_child">
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Page 4</a></li>
+                    <li><a href="#">Page 5</a></li>
+                  </ul></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="banner_area">
+      <div class="overlay">
+        <div class="container">
+          <div class="banner_area_row">
+            <div class="banner_area_content">
+              <h1>Dude You're Getting a Telescope</h1>
+              <p>
+                There is a moment in the life of any aspiring astronomer that it
+                is time to buy that first
+              </p>
+              <a href="#" class="blog_btn">View more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="top_category">
+      <div class="container">
+        <div class="top_category_row">
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay overlay_bg"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog1.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                    <h4>Social life</h4>
+                    <span></span>
+                    <p>Enjoy your social life together</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay overlay_bg"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog2.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                    <h4>Politics</h4>
+                    <span></span>
+                    <p>Be a part of politics</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="top_category_col">
+            <div class="single_widget">
+              <div class="opacity">
+                <div class="overlay overlay_bg"></div>
+                <a href="#" target="_blank">
+                  <div class="thumb">
+                    <img
+                      class="category_img"
+                      src="./assets/images/blog3.webp"
+                      alt="social_life"
+                    />
+                  </div>
+                  <div class="top_category_details">
+                    <h4>Food</h4>
+                    <span></span>
+                    <p>Let the food be finished</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="post_content">
+      <div class="container">
+        <div class="post_content_row">
+          <div class="col_posts_list">
+            <div class="single_post">
+              <div class="single_post_col">
+                <ul class="tags">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+                <div class="user_details">
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col_post">
+                <div class="col_post_image">
+                  <img src="assets/images/post_image.webp" alt="post_image" />
+                </div>
+                <a href="#"
+                  ><h3>Astronomy Binoculars A Great Alternative</h3></a
+                >
+                <p class="excert">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Culpa vero soluta totam! Dolorem libero aperiam eius harum
+                  consequatur totam, esse, sequi velit cupiditate enim pariatur
+                  fugit molestias beatae nam nesciunt!
+                </p>
+                <a href="#" class="blog_btn">View more</a>
+              </div>
+            </div>
+            <div class="single_post">
+              <div class="single_post_col">
+                <ul class="tags">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+                <div class="user_details">
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col_post">
+                <div class="col_post_image">
+                  <img src="assets/images/post_image.webp" alt="post_image" />
+                </div>
+                <a class="post_title" href="#"
+                  ><h3>Astronomy Binoculars A Great Alternative</h3></a
+                >
+                <p class="excert">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Culpa vero soluta totam! Dolorem libero aperiam eius harum
+                  consequatur totam, esse, sequi velit cupiditate enim pariatur
+                  fugit molestias beatae nam nesciunt!
+                </p>
+                <a href="#" class="blog_btn">View more</a>
+              </div>
+            </div>
+            <div class="single_post">
+              <div class="single_post_col">
+                <ul class="tags">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+                <div class="user_details">
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col_post">
+                <div class="col_post_image">
+                  <img src="assets/images/post_image.webp" alt="post_image" />
+                </div>
+                <a href="#"
+                  ><h3>Astronomy Binoculars A Great Alternative</h3></a
+                >
+                <p class="excert">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Culpa vero soluta totam! Dolorem libero aperiam eius harum
+                  consequatur totam, esse, sequi velit cupiditate enim pariatur
+                  fugit molestias beatae nam nesciunt!
+                </p>
+                <a href="#" class="blog_btn">View more</a>
+              </div>
+            </div>
+            <div class="single_post">
+              <div class="single_post_col">
+                <ul class="tags">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+                <div class="user_details">
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col_post">
+                <div class="col_post_image">
+                  <img src="assets/images/post_image.webp" alt="post_image" />
+                </div>
+                <a href="#"
+                  ><h3>Astronomy Binoculars A Great Alternative</h3></a
+                >
+                <p class="excert">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Culpa vero soluta totam! Dolorem libero aperiam eius harum
+                  consequatur totam, esse, sequi velit cupiditate enim pariatur
+                  fugit molestias beatae nam nesciunt!
+                </p>
+                <a href="#" class="blog_btn">View more</a>
+              </div>
+            </div>
+            <div class="single_post">
+              <div class="single_post_col">
+                <ul class="tags">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+                <div class="user_details">
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                  <p class="user_name">
+                    <a href="#">Mark wiens</a>
+                    <span class="user">
+                      <i class="las la-user"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col_post">
+                <div class="col_post_image">
+                  <img src="assets/images/post_image.webp" alt="post_image" />
+                </div>
+                <a href="#"
+                  ><h3>Astronomy Binoculars A Great Alternative</h3></a
+                >
+                <p class="excert">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Culpa vero soluta totam! Dolorem libero aperiam eius harum
+                  consequatur totam, esse, sequi velit cupiditate enim pariatur
+                  fugit molestias beatae nam nesciunt!
+                </p>
+                <a href="#" class="blog_btn">View more</a>
+              </div>
+            </div>
+            <nav class="blog_pages">
+              <ul class="pages">
+                <li class="page_item">
+                  <a href="#" class="page_link">
+                    <span
+                      ><span><i class="las la-angle-left"></i></span
+                    ></span>
+                  </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link">01 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 02 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 03 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 04 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link"> 05 </a>
+                </li>
+                <li class="page_item">
+                  <a href="#" class="page_link">
+                    <span
+                      ><span><i class="las la-angle-right"></i></span
+                    ></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col_posts_sidebar">
+            <div class="widget_wrap">
+              <div class="single_sidebar_widget">
+                <form class="search_form" action="#">
+                  <input
+                    placeholder="Search Posts"
+                    name="search"
+                    type="text"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Search Posts'"
+                  />
+                  <button type="submit">
+                    <i class="las la-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="single_sidebar_widget user_info">
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/blog/xuser-info.png.pagespeed.ic.1A1JgX1vWU.webp"
+                  alt="portrait"
+                />
+                <a href="#"><h4>Charlie Barber</h4></a>
+                <p>Senior blog writer</p>
+                <ul class="social_links">
+                  <li>
+                    <a href="#"><i class="lab la-facebook-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-twitch"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lab la-spotify"></i></a>
+                  </li>
+                </ul>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
+                  sapiente quod soluta assumenda sint et facere beatae
+                  recusandae similique. Laudantium praesentium culpa, voluptas
+                  quo vel repudiandae inventore quae sed quos.
+                </p>
+              </div>
+              <div class="single_sidebar_widget">
+                <h4 class="pop_title">Popular posts</h4>
+                <div class="popular_post_list">
+                  <div class="single_popular_post_list">
+                    <div class="thumb">
+                      <img
+                        src="https://preview.colorlib.com/theme/personal/img/blog/xpp1.jpg.pagespeed.ic.9V-S67p79i.webp"
+                        alt="list_image"
+                      />
+                    </div>
+                    <div class="list_post_details">
+                      <a href="#">
+                        <h6>Space The Final Frontier</h6>
+                      </a>
+                      <p>02 Hours ago</p>
+                    </div>
+                  </div>
+                  <div class="single_popular_post_list">
+                    <div class="thumb">
+                      <img
+                        src="https://preview.colorlib.com/theme/personal/img/blog/xpp1.jpg.pagespeed.ic.9V-S67p79i.webp"
+                        alt="list_image"
+                      />
+                    </div>
+                    <div class="list_post_details">
+                      <a href="#">
+                        <h6>Space The Final Frontier</h6>
+                      </a>
+                      <p>02 Hours ago</p>
+                    </div>
+                  </div>
+                  <div class="single_popular_post_list">
+                    <div class="thumb">
+                      <img
+                        src="https://preview.colorlib.com/theme/personal/img/blog/xpp1.jpg.pagespeed.ic.9V-S67p79i.webp"
+                        alt="list_image"
+                      />
+                    </div>
+                    <div class="list_post_details">
+                      <a href="#">
+                        <h6>Space The Final Frontier</h6>
+                      </a>
+                      <p>02 Hours ago</p>
+                    </div>
+                  </div>
+                  <div class="single_popular_post_list">
+                    <div class="thumb">
+                      <img
+                        src="https://preview.colorlib.com/theme/personal/img/blog/xpp1.jpg.pagespeed.ic.9V-S67p79i.webp"
+                        alt="list_image"
+                      />
+                    </div>
+                    <div class="list_post_details">
+                      <a href="#">
+                        <h6>Space The Final Frontier</h6>
+                      </a>
+                      <p>02 Hours ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_sidebar_widget">
+                <a href="#">
+                  <img
+                    class="ad_image"
+                    src="https://preview.colorlib.com/theme/personal/img/blog/xads-banner.jpg.pagespeed.ic.KWc7poiv5c.webp"
+                    alt="ad_image"
+                /></a>
+              </div>
+              <div class="single_sidebar_widget">
+                <h4 class="cat_title">Post Categories</h4>
+                <ul class="cat_list">
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cat_flex" href="#">
+                      <p>Technology</p>
+                      <p>37</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="single_sidebar_widget">
+                <h4 class="news_title">Newsletter</h4>
+                <p class="news_paragraph">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa eveniet cum animi beatae corporis! Aut expedita,
+                  asperiores, cupiditate ab consectetur rerum sint eius at
+                  quisquam id, numquam nihil corporis non?
+                </p>
+                <div class="form_group">
+                  <div class="col_autos">
+                    <div class="input_group">
+                      <div class="input_group_prepend">
+                        <div class="input_group_text">
+                          <i class="las la-envelope"></i>
+                        </div>
+                      </div>
+                      <input
+                        type="text"
+                        class="form_control"
+                        placeholder="Enter email"
+                        onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Enter email'"
+                      />
+                    </div>
+                  </div>
+                  <a href="#" class="sub_btn">Subcribe</a>
+                </div>
+                <p class="text_bottom">You can unsubscribe at any time</p>
+              </div>
+              <div class="single_sidebar_widget tags_list">
+                <h4 class="tags_title">Tag Clouds</h4>
+                <ul>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_area">
+      <div class="container">
+        <div class="footer_row">
+          <div class="col_footer_about">
+            <div class="single_footer_widget">
+              <h4>About me</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis non pariatur magni deleniti quas! Commodi tempora
+                eveniet temporibus explicabo ipsam! Consequuntur architecto
+                fugiat a id quae quibusdam voluptates, ab dolor.
+              </p>
+              <p class="copyright"></p>
+            </div>
+          </div>
+          <div class="col_footer_newsletter">
+            <div class="single_footer_widget">
+              <h4>Newsletter</h4>
+              <p>Stay updated with our latest trends</p>
+              <div class="footer_form">
+                <form target="blank" action="#">
+                  <div class="input_group">
+                    <input
+                      type="text"
+                      class="form_control"
+                      name="EMAIL"
+                      placeholder="Enter Email Address"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter Email Address '"
+                      required=""
+                    />
+                    <div class="input_footer_btn">
+                      <button class="footer_btn" type="submit">
+                        <span><i class="las la-arrow-right"></i></span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col_footer_follow">
+            <div class="single_footer_widget">
+              <h4>Follow me</h4>
+              <p>Let us be social</p>
+              <div class="footer_social">
+                <a href="#"><i class="lab la-facebook-square"></i></a>
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-twitch"></i></a>
+                <a href="#"><i class="lab la-spotify"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

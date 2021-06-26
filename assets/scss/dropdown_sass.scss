@@ -1,0 +1,18 @@
+@import "mixins.scss";
+
+.dropdown,
+.dropdown_link {
+  @include default_dropdown;
+}
+.dropdown_content,
+.dropdown_child {
+  @include default_dropdown_content;
+}
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown:hover .dropdown_content,
+.dropdown:hover > .dropdown_child {
+  display: block;
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #777;
+  font-family: "Audiowide", cursive;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+  padding-top: 95px;
+}
+ul.social_links {
+  padding: 0;
+}
